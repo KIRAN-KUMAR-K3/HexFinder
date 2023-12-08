@@ -3,7 +3,7 @@
 
 # HexFinder
 
-![HexFinder Banner](https://kiran-kumar-k3.github.io/HexFinder/assets/images/hexfinder-banner.png)
+![HexFinder Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1x5SsQjpa3HbYjc55feDN3BpsIXeydLULvyhYQ3ptkv4C3uY913xc1R1kuk-7dvWxM84&usqp=CAU)
 
 ## Overview
 
