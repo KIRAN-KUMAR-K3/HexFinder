@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ColorScape</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="boostrap/css/font.css">
+    <link rel="stylesheet" href="boostrap/css/bootstrap.css">
+    <link rel="stylesheet" href="boostrap/css/mdb.css">
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+			background-color: black;
+		}
+		.header{
+			height: 60px;
+			background-image: linear-gradient(to right, #33001b, #ff0084);		
+		}
+		.text-light{
+			font-size:30px;
+			position:sticky;
+			top: 0px;
+		}
+		.col-md-3{
+			margin-top: 20px;
+		}
+		.card{
+			height: 150px;
+			padding: 10px;
+			margin-top: 5px;
+		}
+		.card:hover{
+			box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;		
+		}
+
+
+
+		/*the code for the box shadow*/
+		
+	.card {
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .card::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 1000;
+        font-size: 24px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ff0084;
+        opacity: 0;
+        transition: opacity 0.2s;
+        
+    }
+
+    .card:hover::before {
+        opacity: 1;
+    }
+	#linear-gradient-Color{
+		background-image: linear-gradient(red,yellow,green,blue,white,black,pink);
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+			<p class="text-light p-2">ColorScape</p>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+			<a href="color1.html">
+				<div class="card" style="background-color:#00ff00 ;"></div>
+			</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color2.html">
+					<div class="card" style="background-color:#ff0000  ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color3.html">
+					<div class="card" style="background-color:#800000 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color4.html">
+					<div class="card " style="background-color:#ffd700 ;"></div>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="color5.html">
+					<div class="card" style="background-color:#00ffff ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color6.html">
+					<div class="card" style="background-color:#d2b48c ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color7.html">
+					<div class="card" style="background-color:#ffdab9 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color8.html">
+					<div class="card " style="background-color:#808000 ;"></div>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="color9.html">
+					<div class="card" style="background-color:#008000 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color10.html">
+					<div class="card" style="background-color:#008080 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color11.html">
+					<div class="card" style="background-color:#0000ff ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color12.html">
+					<div class="card " style="background-color:#000080 ;"></div>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="color13.html">
+					<div class="card" style="background-color:#800080 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color14.html">
+					<div class="card" style="background-color:#ff00ff ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color15.html">
+					<div class="card" style="background-color:#ffa500 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color16.html">
+					<div class="card " style="background-color:#808080 ;"></div>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<a href="color17.html">
+					<div class="card" style="background-color:#c0c0c0 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color18.html">
+					<div class="card" style="background-color:#ffffff ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="color19.html">
+					<div class="card" style="background-color:#000000 ;"></div>
+				</a>
+			</div>
+			<div class="col-md-3">
+				<a href="lineargradient.html">
+					<div class="card " style="background-color:#00ff00 ;" id="linear-gradient-Color">
+					<h4 class="text-center mt-5 text-dark">linear-gradient Color</h4></div>
+			</a>
+			</div>
+		</div>
+	</div>
+	<footer class="bg-light mt-3">
+		<p class="text-center text-bold py-2">Created By <a href="#typing-text" type="link">KIRAN KUMAR K</a> | <i class="fab fa fa-light fa-copyright"></i> 2023 All rights reserved.</p>
+	</footer>
+	<script src="boostrap/js/jquery.js"></script>
+    <script src="boostrap/js/popper.js"></script>
+    <script src="boostrap/js/bootstrap.js"></script>
+    <script src="boostrap/js/mdb.js"></script>
+</body>
+
+</html>

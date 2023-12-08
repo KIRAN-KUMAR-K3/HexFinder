@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+}
+p{
+  margin-top: 90px;
+  text-align: center;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 1000;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff0084;
+  opacity: 0;
+  transition: opacity 0.2s;
+  
+}
+
+.card:hover::before {
+  opacity: 1;
+}
